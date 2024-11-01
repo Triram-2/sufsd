@@ -47,7 +47,7 @@ async def main():
         browser = await init_browser(
             proxy=False,
             headless=False,
-            maximize_window = True)
+            maximize_window=True)
         
         await go_to_url(browser, LINK)
         
